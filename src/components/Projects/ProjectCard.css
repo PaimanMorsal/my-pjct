@@ -1,0 +1,83 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  max-width: 345px;
+}
+.card-img {
+  margin-bottom: 26px;
+}
+.card-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.card-description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.card-skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+.card-skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: #0b2447;
+  padding: 2px 22px;
+  list-style: none;
+  margin-top: 5px;
+}
+.card-links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+.card-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 100px;
+  background: #576cba;
+  padding: 1px 22px;
+}
+
+/*CSS for rating*/
+.rat-container {
+  width: 300px;
+  background: #0b2447;
+  padding: 10px 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.star-wgt input {
+  display: none;
+}
+.st-label {
+  font-size: 25px;
+  color: #444;
+  padding: 10px;
+  float: left;
+}
+input[type="radio"] {
+  display: none;
+}
+.star {
+  cursor: pointer;
+}
